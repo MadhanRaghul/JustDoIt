@@ -1,8 +1,27 @@
-body{
-  margin: 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: rgb(27, 25, 25);
-  color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: linear-gradient(to top right, rgb(176, 252, 100), rgb(255, 247, 104));
+  background-repeat: no-repeat;
+}
+
+#the-task {
+  flex: 1;
+}
+
+.testy{
+  background-image: url(assets/raindrop.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px; 
+}
+
+.box{
+  background-image: linear-gradient(to top right, rgba(176, 252, 100, 0.466), rgba(255, 247, 104, 0.384));
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }

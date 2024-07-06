@@ -1,19 +1,19 @@
 {
   "tasks": [
     {
+      "id": "1",
+      "checked": true,
+      "task": "Wake up"
+    },
+    {
+      "id": "2",
+      "checked": false,
+      "task": "Eat"
+    },
+    {
       "id": "3",
       "checked": false,
       "task": "Sleep"
-    },
-    {
-      "id": "311",
-      "checked": true,
-      "task": "sdkawkj"
-    },
-    {
-      "id": "3111",
-      "checked": false,
-      "task": "sdalkjd"
     }
   ]
 }
