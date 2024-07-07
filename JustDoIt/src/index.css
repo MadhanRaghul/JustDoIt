@@ -14,14 +14,14 @@ body {
   flex: 1;
 }
 
-.testy{
+.testy {
   background-image: url(assets/raindrop.gif);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px; 
 }
 
-.box{
+.box {
   background-image: linear-gradient(to top right, rgba(176, 252, 100, 0.466), rgba(255, 247, 104, 0.384));
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }

@@ -1,19 +1,93 @@
 {
-  "tasks": [
+  "users": [
     {
       "id": "1",
-      "checked": true,
-      "task": "Wake up"
+      "name": "User One",
+      "pass": "password1",
+      "tasks": [
+        {
+          "id": "1",
+          "checked": true,
+          "task": "Wake up"
+        },
+        {
+          "id": "2",
+          "checked": false,
+          "task": "Eat"
+        },
+        {
+          "id": "21",
+          "checked": false,
+          "task": "Sleep"
+        }
+      ]
     },
     {
       "id": "2",
-      "checked": false,
-      "task": "Eat"
+      "name": "User Two",
+      "pass": "password2",
+      "tasks": [
+        {
+          "id": 1,
+          "checked": false,
+          "task": "Wake up"
+        },
+        {
+          "id": 2,
+          "checked": false,
+          "task": "Code"
+        },
+        {
+          "id": 3,
+          "checked": false,
+          "task": "Practice"
+        },
+        {
+          "id": 4,
+          "checked": false,
+          "task": "Sleep"
+        },
+        {
+          "id": 5,
+          "checked": false,
+          "task": "Repeat"
+        }
+      ]
     },
     {
-      "id": "3",
-      "checked": false,
-      "task": "Sleep"
+      "id": "868c",
+      "name": "three",
+      "pass": "1234567",
+      "tasks": []
+    },
+    {
+      "id": "8824",
+      "name": "theName",
+      "pass": "pass",
+      "tasks": []
+    },
+    {
+      "id": "0f30",
+      "name": "we",
+      "pass": "yes",
+      "tasks": []
+    },
+    {
+      "id": "46c6",
+      "name": "Razor",
+      "pass": "blade",
+      "tasks": [
+        {
+          "id": 1,
+          "checked": false,
+          "task": "rise and shine"
+        },
+        {
+          "id": 2,
+          "checked": false,
+          "task": "do workout"
+        }
+      ]
     }
   ]
 }
